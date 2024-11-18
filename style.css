@@ -1,3 +1,6 @@
+/* https://github.com/rghedin/minifluxbonito
+Versão 1.1 */
+
 :root {
 	--cor-fonte: hsl(0, 0%, 10%);
 	--cor-link-meta: hsl(0, 0%, 47%);
@@ -231,10 +234,13 @@
 	vertical-align: middle;
 	margin-bottom: 1.1rem;
 }
+.entry-content ul {
+	margin: 0 0 1.1rem 1.2rem;
+}
 
 .entry-content h1, h2, h3, h4, h5, h6 {
 	line-height: 1.25;
-	margin: 0 auto 2rem;
+	margin: 2.2rem auto 1.1rem;
 	font-weight: 500;
 }
 
@@ -259,5 +265,13 @@
 	}
 	.header li:last-child {
 		border-bottom: none;
+	}
+
+	.icon {
+		width: 24px;
+		height: 24px;
+	}
+	.icon-label {
+		display: none;
 	}
 }
