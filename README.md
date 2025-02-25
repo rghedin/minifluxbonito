@@ -10,12 +10,16 @@ Copie o conteúdo do arquivo `style.css` no campo “CSS Customizado” nas conf
 
 ## Histórico de versões
 
+### 1.2, 25/2/2025
+
+* Corrige menu principal no modo escuro.
+
 ### 1.1, 18/11/2024
 
-* Correção das margens de listas não ordenadas (`ul`).
-* Correção das margens superior e inferior de títulos (`h1`–`h6`).
+* Corrige das margens de listas não ordenadas (`ul`).
+* Corrige das margens superior e inferior de títulos (`h1`–`h6`).
 * Remove rótulos e aumenta ícones da classe `.entry-actions` em telas pequenas (<620px).
-* Acrescenta histórico de versões.
+* Adiciona histórico de versões.
 
 ### 1.0, 18/11/2024
 

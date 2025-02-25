@@ -1,8 +1,10 @@
 /* https://github.com/rghedin/minifluxbonito
-Versão 1.1 */
+Versão 1.2 */
 
 :root {
 	--cor-fonte: hsl(0, 0%, 10%);
+	--cor-header-bg: rgb(246, 246, 246);
+	--cor-logo: color(srgb 0.945 0.945 0.945);
 	--cor-link-meta: hsl(0, 0%, 47%);
 	--cor-link-meta-alt: hsl(0, 0%, 20%);
 	--fs-conteudo: clamp(1.1875rem, 1.1505rem + 0.1852vw, 1.25rem);
@@ -11,7 +13,7 @@ Versão 1.1 */
 .header {
 	margin: 0 0 2.5rem;
 	padding: 0;
-	background-color: rgb(246, 246, 246);
+	background-color: var(--cor-header-bg);
 	font-size: .9rem;
 	border-radius: 6px;
 }
@@ -22,7 +24,7 @@ Versão 1.1 */
 
 .logo {
 	padding: .5rem;
-	background-color: color(srgb 0.945 0.945 0.945);
+	background-color: var(--cor-logo);
 	border-radius: 6px 0 0 6px;
 }
 
@@ -273,5 +275,16 @@ Versão 1.1 */
 	}
 	.icon-label {
 		display: none;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--cor-fonte: hsl(0, 0%, 10%);
+		--cor-header-bg: rgb(60, 60, 60);
+		--cor-logo: rgb(45, 44, 44);
+		--cor-link-meta: hsl(0, 0%, 47%);
+		--cor-link-meta-alt: hsl(0, 0%, 20%);
+		--fs-conteudo: clamp(1.1875rem, 1.1505rem + 0.1852vw, 1.25rem);
 	}
 }
